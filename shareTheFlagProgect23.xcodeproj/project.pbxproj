@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		869A886227EF58D600FB8AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A886127EF58D600FB8AAC /* AppDelegate.swift */; };
+		869A886427EF58D600FB8AAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A886327EF58D600FB8AAC /* SceneDelegate.swift */; };
+		869A886627EF58D600FB8AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A886527EF58D600FB8AAC /* ViewController.swift */; };
+		869A886927EF58D600FB8AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869A886727EF58D600FB8AAC /* Main.storyboard */; };
+		869A886B27EF58D700FB8AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869A886A27EF58D700FB8AAC /* Assets.xcassets */; };
+		869A886E27EF58D700FB8AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869A886C27EF58D700FB8AAC /* LaunchScreen.storyboard */; };
+		869A888E27EF5ABB00FB8AAC /* spain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887627EF5ABB00FB8AAC /* spain@2x.png */; };
+		869A888F27EF5ABB00FB8AAC /* nigeria@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887727EF5ABB00FB8AAC /* nigeria@2x.png */; };
+		869A889027EF5ABB00FB8AAC /* nigeria@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887827EF5ABB00FB8AAC /* nigeria@3x.png */; };
+		869A889127EF5ABB00FB8AAC /* spain@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887927EF5ABB00FB8AAC /* spain@3x.png */; };
+		869A889227EF5ABB00FB8AAC /* italy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887A27EF5ABB00FB8AAC /* italy@3x.png */; };
+		869A889327EF5ABB00FB8AAC /* ireland@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887B27EF5ABB00FB8AAC /* ireland@2x.png */; };
+		869A889427EF5ABB00FB8AAC /* germany@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887C27EF5ABB00FB8AAC /* germany@3x.png */; };
+		869A889527EF5ABB00FB8AAC /* germany@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887D27EF5ABB00FB8AAC /* germany@2x.png */; };
+		869A889627EF5ABB00FB8AAC /* ireland@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887E27EF5ABB00FB8AAC /* ireland@3x.png */; };
+		869A889727EF5ABB00FB8AAC /* italy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A887F27EF5ABB00FB8AAC /* italy@2x.png */; };
+		869A889827EF5ABB00FB8AAC /* poland@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888027EF5ABB00FB8AAC /* poland@2x.png */; };
+		869A889927EF5ABB00FB8AAC /* russia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888127EF5ABB00FB8AAC /* russia@2x.png */; };
+		869A889A27EF5ABB00FB8AAC /* estonia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888227EF5ABB00FB8AAC /* estonia@2x.png */; };
+		869A889B27EF5ABB00FB8AAC /* estonia@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888327EF5ABB00FB8AAC /* estonia@3x.png */; };
+		869A889C27EF5ABB00FB8AAC /* russia@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888427EF5ABB00FB8AAC /* russia@3x.png */; };
+		869A889D27EF5ABB00FB8AAC /* poland@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888527EF5ABB00FB8AAC /* poland@3x.png */; };
+		869A889E27EF5ABB00FB8AAC /* uk@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888627EF5ABB00FB8AAC /* uk@3x.png */; };
+		869A889F27EF5ABB00FB8AAC /* us@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888727EF5ABB00FB8AAC /* us@3x.png */; };
+		869A88A027EF5ABB00FB8AAC /* france@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888827EF5ABB00FB8AAC /* france@3x.png */; };
+		869A88A127EF5ABB00FB8AAC /* monaco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888927EF5ABB00FB8AAC /* monaco@2x.png */; };
+		869A88A227EF5ABB00FB8AAC /* monaco@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888A27EF5ABB00FB8AAC /* monaco@3x.png */; };
+		869A88A327EF5ABB00FB8AAC /* france@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888B27EF5ABB00FB8AAC /* france@2x.png */; };
+		869A88A427EF5ABB00FB8AAC /* us@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888C27EF5ABB00FB8AAC /* us@2x.png */; };
+		869A88A527EF5ABB00FB8AAC /* uk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A888D27EF5ABB00FB8AAC /* uk@2x.png */; };
+		869A88A727EF5E0700FB8AAC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A88A627EF5E0700FB8AAC /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		869A885E27EF58D600FB8AAC /* shareTheFlagProgect23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shareTheFlagProgect23.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		869A886127EF58D600FB8AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		869A886327EF58D600FB8AAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		869A886527EF58D600FB8AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		869A886827EF58D600FB8AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		869A886A27EF58D700FB8AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		869A886D27EF58D700FB8AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		869A886F27EF58D700FB8AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869A887627EF5ABB00FB8AAC /* spain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spain@2x.png"; sourceTree = "<group>"; };
+		869A887727EF5ABB00FB8AAC /* nigeria@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nigeria@2x.png"; sourceTree = "<group>"; };
+		869A887827EF5ABB00FB8AAC /* nigeria@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nigeria@3x.png"; sourceTree = "<group>"; };
+		869A887927EF5ABB00FB8AAC /* spain@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spain@3x.png"; sourceTree = "<group>"; };
+		869A887A27EF5ABB00FB8AAC /* italy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "italy@3x.png"; sourceTree = "<group>"; };
+		869A887B27EF5ABB00FB8AAC /* ireland@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ireland@2x.png"; sourceTree = "<group>"; };
+		869A887C27EF5ABB00FB8AAC /* germany@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "germany@3x.png"; sourceTree = "<group>"; };
+		869A887D27EF5ABB00FB8AAC /* germany@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "germany@2x.png"; sourceTree = "<group>"; };
+		869A887E27EF5ABB00FB8AAC /* ireland@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ireland@3x.png"; sourceTree = "<group>"; };
+		869A887F27EF5ABB00FB8AAC /* italy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "italy@2x.png"; sourceTree = "<group>"; };
+		869A888027EF5ABB00FB8AAC /* poland@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poland@2x.png"; sourceTree = "<group>"; };
+		869A888127EF5ABB00FB8AAC /* russia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "russia@2x.png"; sourceTree = "<group>"; };
+		869A888227EF5ABB00FB8AAC /* estonia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estonia@2x.png"; sourceTree = "<group>"; };
+		869A888327EF5ABB00FB8AAC /* estonia@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estonia@3x.png"; sourceTree = "<group>"; };
+		869A888427EF5ABB00FB8AAC /* russia@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "russia@3x.png"; sourceTree = "<group>"; };
+		869A888527EF5ABB00FB8AAC /* poland@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poland@3x.png"; sourceTree = "<group>"; };
+		869A888627EF5ABB00FB8AAC /* uk@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uk@3x.png"; sourceTree = "<group>"; };
+		869A888727EF5ABB00FB8AAC /* us@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "us@3x.png"; sourceTree = "<group>"; };
+		869A888827EF5ABB00FB8AAC /* france@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "france@3x.png"; sourceTree = "<group>"; };
+		869A888927EF5ABB00FB8AAC /* monaco@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monaco@2x.png"; sourceTree = "<group>"; };
+		869A888A27EF5ABB00FB8AAC /* monaco@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monaco@3x.png"; sourceTree = "<group>"; };
+		869A888B27EF5ABB00FB8AAC /* france@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "france@2x.png"; sourceTree = "<group>"; };
+		869A888C27EF5ABB00FB8AAC /* us@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "us@2x.png"; sourceTree = "<group>"; };
+		869A888D27EF5ABB00FB8AAC /* uk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uk@2x.png"; sourceTree = "<group>"; };
+		869A88A627EF5E0700FB8AAC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		869A885B27EF58D600FB8AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		869A885527EF58D600FB8AAC = {
+			isa = PBXGroup;
+			children = (
+				869A886027EF58D600FB8AAC /* shareTheFlagProgect23 */,
+				869A885F27EF58D600FB8AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		869A885F27EF58D600FB8AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				869A885E27EF58D600FB8AAC /* shareTheFlagProgect23.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		869A886027EF58D600FB8AAC /* shareTheFlagProgect23 */ = {
+			isa = PBXGroup;
+			children = (
+				869A886127EF58D600FB8AAC /* AppDelegate.swift */,
+				869A886327EF58D600FB8AAC /* SceneDelegate.swift */,
+				869A886527EF58D600FB8AAC /* ViewController.swift */,
+				869A886727EF58D600FB8AAC /* Main.storyboard */,
+				869A88A627EF5E0700FB8AAC /* DetailViewController.swift */,
+				869A886A27EF58D700FB8AAC /* Assets.xcassets */,
+				869A886C27EF58D700FB8AAC /* LaunchScreen.storyboard */,
+				869A886F27EF58D700FB8AAC /* Info.plist */,
+				869A887527EF5ABB00FB8AAC /* Content */,
+			);
+			path = shareTheFlagProgect23;
+			sourceTree = "<group>";
+		};
+		869A887527EF5ABB00FB8AAC /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				869A887627EF5ABB00FB8AAC /* spain@2x.png */,
+				869A887727EF5ABB00FB8AAC /* nigeria@2x.png */,
+				869A887827EF5ABB00FB8AAC /* nigeria@3x.png */,
+				869A887927EF5ABB00FB8AAC /* spain@3x.png */,
+				869A887A27EF5ABB00FB8AAC /* italy@3x.png */,
+				869A887B27EF5ABB00FB8AAC /* ireland@2x.png */,
+				869A887C27EF5ABB00FB8AAC /* germany@3x.png */,
+				869A887D27EF5ABB00FB8AAC /* germany@2x.png */,
+				869A887E27EF5ABB00FB8AAC /* ireland@3x.png */,
+				869A887F27EF5ABB00FB8AAC /* italy@2x.png */,
+				869A888027EF5ABB00FB8AAC /* poland@2x.png */,
+				869A888127EF5ABB00FB8AAC /* russia@2x.png */,
+				869A888227EF5ABB00FB8AAC /* estonia@2x.png */,
+				869A888327EF5ABB00FB8AAC /* estonia@3x.png */,
+				869A888427EF5ABB00FB8AAC /* russia@3x.png */,
+				869A888527EF5ABB00FB8AAC /* poland@3x.png */,
+				869A888627EF5ABB00FB8AAC /* uk@3x.png */,
+				869A888727EF5ABB00FB8AAC /* us@3x.png */,
+				869A888827EF5ABB00FB8AAC /* france@3x.png */,
+				869A888927EF5ABB00FB8AAC /* monaco@2x.png */,
+				869A888A27EF5ABB00FB8AAC /* monaco@3x.png */,
+				869A888B27EF5ABB00FB8AAC /* france@2x.png */,
+				869A888C27EF5ABB00FB8AAC /* us@2x.png */,
+				869A888D27EF5ABB00FB8AAC /* uk@2x.png */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		869A885D27EF58D600FB8AAC /* shareTheFlagProgect23 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869A887227EF58D700FB8AAC /* Build configuration list for PBXNativeTarget "shareTheFlagProgect23" */;
+			buildPhases = (
+				869A885A27EF58D600FB8AAC /* Sources */,
+				869A885B27EF58D600FB8AAC /* Frameworks */,
+				869A885C27EF58D600FB8AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shareTheFlagProgect23;
+			productName = shareTheFlagProgect23;
+			productReference = 869A885E27EF58D600FB8AAC /* shareTheFlagProgect23.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		869A885627EF58D600FB8AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					869A885D27EF58D600FB8AAC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 869A885927EF58D600FB8AAC /* Build configuration list for PBXProject "shareTheFlagProgect23" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 869A885527EF58D600FB8AAC;
+			productRefGroup = 869A885F27EF58D600FB8AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				869A885D27EF58D600FB8AAC /* shareTheFlagProgect23 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		869A885C27EF58D600FB8AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869A88A227EF5ABB00FB8AAC /* monaco@3x.png in Resources */,
+				869A888F27EF5ABB00FB8AAC /* nigeria@2x.png in Resources */,
+				869A88A427EF5ABB00FB8AAC /* us@2x.png in Resources */,
+				869A889027EF5ABB00FB8AAC /* nigeria@3x.png in Resources */,
+				869A889D27EF5ABB00FB8AAC /* poland@3x.png in Resources */,
+				869A889E27EF5ABB00FB8AAC /* uk@3x.png in Resources */,
+				869A88A327EF5ABB00FB8AAC /* france@2x.png in Resources */,
+				869A889727EF5ABB00FB8AAC /* italy@2x.png in Resources */,
+				869A888E27EF5ABB00FB8AAC /* spain@2x.png in Resources */,
+				869A889427EF5ABB00FB8AAC /* germany@3x.png in Resources */,
+				869A886E27EF58D700FB8AAC /* LaunchScreen.storyboard in Resources */,
+				869A889827EF5ABB00FB8AAC /* poland@2x.png in Resources */,
+				869A886B27EF58D700FB8AAC /* Assets.xcassets in Resources */,
+				869A889227EF5ABB00FB8AAC /* italy@3x.png in Resources */,
+				869A889B27EF5ABB00FB8AAC /* estonia@3x.png in Resources */,
+				869A88A127EF5ABB00FB8AAC /* monaco@2x.png in Resources */,
+				869A886927EF58D600FB8AAC /* Main.storyboard in Resources */,
+				869A889327EF5ABB00FB8AAC /* ireland@2x.png in Resources */,
+				869A889527EF5ABB00FB8AAC /* germany@2x.png in Resources */,
+				869A889F27EF5ABB00FB8AAC /* us@3x.png in Resources */,
+				869A889127EF5ABB00FB8AAC /* spain@3x.png in Resources */,
+				869A889927EF5ABB00FB8AAC /* russia@2x.png in Resources */,
+				869A889A27EF5ABB00FB8AAC /* estonia@2x.png in Resources */,
+				869A889C27EF5ABB00FB8AAC /* russia@3x.png in Resources */,
+				869A88A527EF5ABB00FB8AAC /* uk@2x.png in Resources */,
+				869A88A027EF5ABB00FB8AAC /* france@3x.png in Resources */,
+				869A889627EF5ABB00FB8AAC /* ireland@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		869A885A27EF58D600FB8AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869A886627EF58D600FB8AAC /* ViewController.swift in Sources */,
+				869A886227EF58D600FB8AAC /* AppDelegate.swift in Sources */,
+				869A886427EF58D600FB8AAC /* SceneDelegate.swift in Sources */,
+				869A88A727EF5E0700FB8AAC /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		869A886727EF58D600FB8AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869A886827EF58D600FB8AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		869A886C27EF58D700FB8AAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869A886D27EF58D700FB8AAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		869A887027EF58D700FB8AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		869A887127EF58D700FB8AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		869A887327EF58D700FB8AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WQFD456R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shareTheFlagProgect23/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IliaByHimself.shareTheFlagProgect23;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		869A887427EF58D700FB8AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WQFD456R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shareTheFlagProgect23/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IliaByHimself.shareTheFlagProgect23;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		869A885927EF58D600FB8AAC /* Build configuration list for PBXProject "shareTheFlagProgect23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869A887027EF58D700FB8AAC /* Debug */,
+				869A887127EF58D700FB8AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869A887227EF58D700FB8AAC /* Build configuration list for PBXNativeTarget "shareTheFlagProgect23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869A887327EF58D700FB8AAC /* Debug */,
+				869A887427EF58D700FB8AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 869A885627EF58D600FB8AAC /* Project object */;
+}
